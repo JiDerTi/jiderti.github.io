@@ -1,0 +1,119 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+body{
+    background-color: rgb(46, 43, 43);
+}
+header{
+    background-color: rgb(37, 37, 37);
+    position: relative;
+    border: rgba(58, 52, 52, 0.178) 5px solid;
+    box-shadow: 10px 0px 10px #00000071;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5em;
+    padding-top: 15px;
+}
+header h1{
+    color: white;
+    margin-left: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+header div{
+    display: flex;
+}
+.center{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.element{
+    background-color: rgb(219, 212, 196);
+    border-radius: 25%;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.element-text{
+    padding-bottom: 2em;
+    font-size: 30px;
+    font-weight: 400;
+}
+.classes{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.classes .element{
+    width: 400px;
+    height: 200px;
+    border-radius: 10%;
+}
+.text{
+    color: white;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.class-table{
+    color: white;
+    width: 100%;
+    border: 1px rgba(219, 212, 196, 0.418) solid;
+    margin-bottom: 2em;
+}
+.class-table td{
+    border: 1px rgba(0, 0, 0, 0.048) solid;
+}
+.class-table .head{
+    font-size: 20px;
+}
+td a{
+    color: white;
+}
+.class-quote{
+    color: rgb(219, 212, 196);
+    margin-left: 2em;
+    font-style: italic;
+    text-align: right;
+    margin-top: 2em;
+}
+.class-text{
+    color: rgb(219, 212, 196);
+    margin: 10px;
+}
+.class-h1{
+    color: rgb(219, 212, 196);
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px rgb(219, 212, 196) solid;
+}
+.ability-box {
+    max-height: 1000000px;
+    opacity: 1;
+    overflow: hidden;
+    transition: max-height 0.2s ease, opacity 0.2s ease;
+}
+
+.ability-box.hidden {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+.class-element{
+    background-color: rgba(75, 18, 18, 0.377);
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+.class-main{
+    color: rgb(219, 212, 196);
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 37px;
+}
